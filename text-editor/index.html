@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Texto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Editor de Texto Completo</h1>
+    
+    <div id="editor-container">
+        <div id="toolbar">
+            <button id="voice-transcribe">Transcribir Voz</button>
+            <button id="spell-check">Corrección Ortográfica y Gramatical</button>
+            <button id="insert-line">Insertar Oración</button>
+            <button id="insert-paragraph">Insertar Párrafo</button>
+            <button id="insert-quote">Insertar Cita Textual</button>
+            <button id="export-docx">Exportar a DOCX</button>
+        </div>
+        <div id="editor" contenteditable="true">
+            <!-- Área de edición de texto -->
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
